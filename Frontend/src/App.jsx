@@ -16,7 +16,7 @@ import Message from './pages/Message';
 import {io} from 'socket.io-client'
 
 var socket = io.connect(import.meta.env.VITE_API_URL,
-  {withCredential: true,}
+  {withCredentials: true,}
 );
 
 function App() {
