@@ -22,7 +22,7 @@ const dotenv = require("dotenv");
 dotenv.config({ path: "./server/.env" });
 const PORT = process.env.PORT || 4000;
 
-const allowedOrigins = [
+const allowedOrigin = [
   "http://localhost:5173",
   "https://socialhub3.netlify.app"
 ];
